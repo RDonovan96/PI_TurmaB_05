@@ -66,8 +66,7 @@ public class pizza1 {
 
     public static void jogar() {
         Scanner entrada = new Scanner(System.in);
-        Scanner leitor = new Scanner(System.in);
-        String questao = ("Quem foi o criador do java?");
+        String questao = ("Quem foi o criador do java?\n");
         Collection<String> alternativas = new ArrayList<>(); //Collection vai embaralhar as alternativas 
 
         alternativas.add("Bill Gates");
@@ -140,16 +139,15 @@ public class pizza1 {
         } // QUESTÃO 2 ---------------------------------------------------------
 
         Scanner entrada2 = new Scanner(System.in);
-        Scanner leitor2 = new Scanner(System.in);
-        String questao2 = ("Qual o valor em Binário do Decimal 42? ");
+        String questao2 = ("o que é Java ?\n");
         Collection<String> alternativas2 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
-        alternativas2.add("101010");
-        alternativas2.add("101011");
-        alternativas2.add("111010");
-        alternativas2.add("101111");
+        alternativas2.add("É uma caixa de dialogo");
+        alternativas2.add("É o método utilizado pra fazer pesquisar");
+        alternativas2.add("É uma linguagem de programação orienta a objeto");
+        alternativas2.add("É um método pra criptografar objetos");
 
-        String alternativaCorreta2 = "101010";
+        String alternativaCorreta2 = "É uma linguagem de programação orienta a objeto";
 
         boolean respostaCerta2 = false;
 
@@ -211,16 +209,15 @@ public class pizza1 {
 
         // QUESTÃO 3 -----------------------------------------------------------
         Scanner entrada3 = new Scanner(System.in);
-        Scanner leitor3 = new Scanner(System.in);
-        String questao3 = ("Qual o valor Hexadecimal do numero decimal 1231");
+        String questao3 = ("A linguagem Java apresenta uma sintaxe muito semelhante a qual linguagem? \n");
         Collection<String> alternativas3 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
-        alternativas3.add("4D1");
-        alternativas3.add("4CE");
-        alternativas3.add("4CF");
-        alternativas3.add("4D3");
+        alternativas3.add("Python");
+        alternativas3.add("JavaScript");
+        alternativas3.add("C e C++");
+        alternativas3.add("PHP");
 
-        String alternativaCorreta3 = "4CF";
+        String alternativaCorreta3 = "C e C++";
 
         boolean respostaCerta3 = false;
 
@@ -281,16 +278,15 @@ public class pizza1 {
 
         // QUESTÃO 4 -----------------------------------------------------------
         Scanner entrada4 = new Scanner(System.in);
-        Scanner leitor4 = new Scanner(System.in);
-        String questao4 = ("Qual o valor Decimal do Hexadecimal ED ?");
+        String questao4 = ("Quais são os pilares POO? \n");
         Collection<String> alternativas4 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
-        alternativas4.add("230");
-        alternativas4.add("233");
-        alternativas4.add("235");
-        alternativas4.add("237");
+        alternativas4.add("Abstração, herança, polimorfismo e encapsulamento");
+        alternativas4.add("Classe, pacote, metodo e objeto");
+        alternativas4.add("JDK, JVM, java SE e Java EE");
+        alternativas4.add("Variaveis, Métodos, funções e bibliotecas");
 
-        String alternativaCorreta4 = "237";
+        String alternativaCorreta4 = "Abstração, herança, polimorfismo e encapsulamento";
 
         boolean respostaCerta4 = false;
 
@@ -351,13 +347,12 @@ public class pizza1 {
 
         // QUESTÃO 5 -----------------------------------------------------------
         Scanner entrada5 = new Scanner(System.in);
-        Scanner leitor5 = new Scanner(System.in);
         String questao5 = ("O que significa if ?");
         Collection<String> alternativas5 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
         alternativas5.add("Então");
         alternativas5.add("Se");
-        alternativas5.add("Se não");
+        alternativas5.add("Senão");
         alternativas5.add("Talvez");
 
         String alternativaCorreta5 = "Se";
@@ -421,7 +416,6 @@ public class pizza1 {
 
         // QUESTÃO 6 -----------------------------------------------------------
         Scanner entrada6 = new Scanner(System.in);
-        Scanner leitor6 = new Scanner(System.in);
         String questao6 = ("O que significa Else ?");
         Collection<String> alternativas6 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
@@ -489,7 +483,6 @@ public class pizza1 {
 
         // QUESTÃO 7 -----------------------------------------------------------
         Scanner entrada7 = new Scanner(System.in);
-        Scanner leitor7 = new Scanner(System.in);
         String questao7 = ("Para que serve Import Java.sql. ?");
         Collection<String> alternativas7 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
@@ -559,7 +552,6 @@ public class pizza1 {
 
         // QUESTÃO 8 -----------------------------------------------------------
         Scanner entrada8 = new Scanner(System.in);
-        Scanner leitor8 = new Scanner(System.in);
         String questao8 = ("Qual o valor Decimal do Hexadecimal ABC ?");
         Collection<String> alternativas8 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
@@ -629,7 +621,6 @@ public class pizza1 {
 
         // QUESTÃO 9 -----------------------------------------------------------
         Scanner entrada9 = new Scanner(System.in);
-        Scanner leitor9 = new Scanner(System.in);
         String questao9 = ("O Valor  Decimal para Hexadecimal de 450 ?");
         Collection<String> alternativas9 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
@@ -699,7 +690,6 @@ public class pizza1 {
 
         // QUESTÃO 10 -----------------------------------------------------------
         Scanner entrada10 = new Scanner(System.in);
-        Scanner leitor10 = new Scanner(System.in);
         String questao10 = ("Qual o valor Binário do Decimal 2022 ?");
         Collection<String> alternativas10 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
@@ -768,9 +758,8 @@ public class pizza1 {
         }  // FECHA QUESTÃO 10 --------------------------------------------------
         // QUESTÃO 11 -----------------------------------------------------------
         Scanner entrada11 = new Scanner(System.in);
-        Scanner leitor11 = new Scanner(System.in);
         String questao11 = ("Pergunta BÔNUS! Essa pergunta pode dobrar a sua pontuação. \n"
-                + "Em que ano foi lançado o Java ?");
+                             + "Em que ano foi lançado o Java ?");
         Collection<String> alternativas11 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
         alternativas11.add("1992");
