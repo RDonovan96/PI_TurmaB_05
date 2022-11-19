@@ -844,11 +844,12 @@ public class pizza1 {
             }
 
     public static void sair() {
-        
+        //System.out.println("**modulo sair**");
         System.out.println("Até logo! ");
     }
 
     public static void main(String[] args) {
+        //System.out.println("**modulo main**")
         controle();
 
     }
