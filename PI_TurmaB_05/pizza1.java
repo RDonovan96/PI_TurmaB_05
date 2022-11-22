@@ -76,8 +76,6 @@ public class pizza1 {
 
         String alternativaCorreta = "James Gosling";
 
-        boolean respostaCerta = false;
-
         int i = 2;
         int p = 0; //pontos
         int tentativas = 1; // quantas chances
@@ -113,13 +111,13 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta = true;
-
+                        
                     } else {
 
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
-
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -148,8 +146,6 @@ public class pizza1 {
         alternativas2.add("É um método pra criptografar objetos");
 
         String alternativaCorreta2 = "É uma linguagem de programação orienta a objeto";
-
-        boolean respostaCerta2 = false;
 
         i = 2;
         tentativas = 1;
@@ -184,12 +180,12 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta2 = true;
-
+                        
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
-
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -218,8 +214,6 @@ public class pizza1 {
         alternativas3.add("PHP");
 
         String alternativaCorreta3 = "C e C++";
-
-        boolean respostaCerta3 = false;
 
         i = 2;
         tentativas = 1;
@@ -254,11 +248,12 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta3 = true;
-
+                        
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -287,8 +282,6 @@ public class pizza1 {
         alternativas4.add("Variaveis, Métodos, funções e bibliotecas");
 
         String alternativaCorreta4 = "Abstração, herança, polimorfismo e encapsulamento";
-
-        boolean respostaCerta4 = false;
 
         i = 2;
         tentativas = 1;
@@ -326,8 +319,10 @@ public class pizza1 {
                         respostaCerta4 = true;
 
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -356,8 +351,6 @@ public class pizza1 {
         alternativas5.add("Talvez");
 
         String alternativaCorreta5 = "Se";
-
-        boolean respostaCerta5 = false;
 
         i = 2;
         tentativas = 1;
@@ -392,11 +385,12 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta5 = true;
-
+                        
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -425,8 +419,6 @@ public class pizza1 {
         alternativas6.add("Enquanto");
 
         String alternativaCorreta6 = "Se não";
-
-        boolean respostaCerta6 = false;
 
         i = 2;
         tentativas = 1;
@@ -464,9 +456,13 @@ public class pizza1 {
                         respostaCerta6 = true;
 
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                        System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
+                        System.out.println("");
+
                     }
                     break;
 
@@ -492,8 +488,6 @@ public class pizza1 {
         alternativas7.add("Conexão com Package");
 
         String alternativaCorreta7 = "Conexão com Banco de Dados";
-
-        boolean respostaCerta7 = false;
 
         i = 2;
         tentativas = 1;
@@ -528,11 +522,12 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta7 = true;
-
+                        
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -561,8 +556,6 @@ public class pizza1 {
         alternativas8.add("2658");
 
         String alternativaCorreta8 = "2748";
-
-        boolean respostaCerta8 = false;
 
         i = 2;
         tentativas = 1;
@@ -600,8 +593,10 @@ public class pizza1 {
                         respostaCerta8 = true;
 
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -630,8 +625,6 @@ public class pizza1 {
         alternativas9.add("1D2");
 
         String alternativaCorreta9 = "1C2";
-
-        boolean respostaCerta9 = false;
 
         i = 2;
         tentativas = 1;
@@ -669,8 +662,10 @@ public class pizza1 {
                         respostaCerta9 = true;
 
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -699,8 +694,6 @@ public class pizza1 {
         alternativas10.add("11111100110");
 
         String alternativaCorreta10 = "11111100110";
-
-        boolean respostaCerta10 = false;
 
         i = 2;
         tentativas = 1;
@@ -738,8 +731,10 @@ public class pizza1 {
                         respostaCerta10 = true;
 
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
@@ -768,8 +763,6 @@ public class pizza1 {
         alternativas11.add("1991");
 
         String alternativaCorreta11 = "1995";
-
-        boolean respostaCerta11 = false;
 
         i = 1;
         tentativas = 1;
@@ -804,11 +797,12 @@ public class pizza1 {
                         p = p * 2;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta11 = true;
-
+                        
                     } else {
-                        System.out.println("Resposta errada! " + "você tem mais " + tentativas + " tentativas\n");
-                        tentativas = tentativas - 1;
+                         System.out.println("Resposta errada! ");
+                        if (i == 2) {
+                            System.out.println("Você tem mais " + tentativas + " tentativa");
+                        }
                         i--;
                         System.out.println("");
 
