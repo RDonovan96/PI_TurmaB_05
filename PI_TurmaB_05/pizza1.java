@@ -316,7 +316,7 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta4 = true;
+                       
 
                     } else {
                          System.out.println("Resposta errada! ");
@@ -453,8 +453,7 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta6 = true;
-
+                        
                     } else {
                         System.out.println("Resposta errada! ");
                         if (i == 2) {
@@ -590,8 +589,7 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta8 = true;
-
+                        
                     } else {
                          System.out.println("Resposta errada! ");
                         if (i == 2) {
@@ -659,8 +657,7 @@ public class pizza1 {
                         p = p + 10;
                         System.out.println("Resposta Correta! " + p + " Pontos!!!\n");
                         i = i + 4;
-                        respostaCerta9 = true;
-
+                        
                     } else {
                          System.out.println("Resposta errada! ");
                         if (i == 2) {
