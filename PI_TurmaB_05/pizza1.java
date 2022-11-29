@@ -142,7 +142,7 @@ public class pizza1 {
 
         alternativas2.add("É uma caixa de dialogo");
         alternativas2.add("É o método utilizado pra fazer pesquisar");
-        alternativas2.add("É uma linguagem de programação orienta a objeto");
+        alternativas2.add("É uma linguagem de programação orientada a objeto");
         alternativas2.add("É um método pra criptografar objetos");
 
         String alternativaCorreta2 = "É uma linguagem de programação orienta a objeto";
@@ -276,7 +276,7 @@ public class pizza1 {
         String questao4 = ("Quais são os pilares POO? \n");
         Collection<String> alternativas4 = new ArrayList<>(); //Collection vai embarar as alternativas 
 
-        alternativas4.add("Abstração, herança, polimorfismo e encapsulamento");
+        alternativas4.add("Abstração, Herança, Polimorfismo e Encapsulamento");
         alternativas4.add("Classe, pacote, metodo e objeto");
         alternativas4.add("JDK, JVM, java SE e Java EE");
         alternativas4.add("Variaveis, Métodos, funções e bibliotecas");
